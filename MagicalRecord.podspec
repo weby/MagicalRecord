@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target = '6.1'
   s.osx.deployment_target = '10.8'
+  s.watchos.deployment_target = '2.0'
 
   s.framework    = 'CoreData'
   s.header_dir   = 'MagicalRecord'
